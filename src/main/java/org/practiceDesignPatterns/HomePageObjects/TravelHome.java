@@ -38,7 +38,5 @@ public class TravelHome {
         searchFlightAvail.checkAvail(origin, destination);
     }
 
-    public void quitBrowser(){
-        driver.quit();
-    }
+    // Removed the quit method as per the req. - Harsha Vardhan QAE
 }
